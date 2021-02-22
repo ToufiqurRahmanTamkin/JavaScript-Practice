@@ -1,6 +1,6 @@
 var friendsAge = [15, 17, 14, 16];
 var s = friendsAge[2];
-friendsAge[1]=21;
+friendsAge[1] = 21;
 var position = friendsAge.indexOf(16);
 console.log(position);
 console.log(s);
@@ -15,7 +15,7 @@ friendsAge.push(32);
 console.log(friendsAge);
 friendsAge.pop();
 friendsAge.pop();
-friendsAge.pop(15);
+// friendsAge.pop(2);
 console.log(friendsAge);
 
 var len = friendsAge.length;
