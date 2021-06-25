@@ -1,4 +1,5 @@
-function isPrime(n) {
+
+const isPrime = n => {
     if(n==2){
         return true;
     }
@@ -20,3 +21,4 @@ function isPrime(n) {
     }
 }
 console.log(isPrime(57));
+

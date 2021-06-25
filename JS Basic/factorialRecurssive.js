@@ -1,3 +1,4 @@
+
 function factorial (n) {
     if(n==0){
         return 1;
@@ -7,3 +8,4 @@ function factorial (n) {
     }
 }
 console.log(factorial(2));
+

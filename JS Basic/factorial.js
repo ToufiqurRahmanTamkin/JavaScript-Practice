@@ -6,14 +6,14 @@
 // }
 // console.log(factorial);
 
-function fact(n) {
+function factFunction(n) {
     var i=1;
     var factorial = 1;
     while(i<=n){
-        factorial *= i;
+        factorial = factorial * i;
         i++;
     }
     return factorial;
 }
 
-console.log(fact(4));
+console.log(factFunction(4));

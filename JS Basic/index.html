@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <input type="text" id="nameId">
+        <input type="number" id="numberId">
+        <button id="submitId" onclick="submitFunc()">submit</button>
+    </div>
+    <script>
+        function submitFunc(){
+            const names = document.getElementById("nameId").value;
+            const number = document.getElementById("numberId").value;
+            console.log(names, number);
+        }
+       
+    </script>
+</body>
+</html>
